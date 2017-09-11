@@ -67,7 +67,7 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_id'=>'topmenu', 'container' => 'ul', 'menu_class' => 'nav navbar-nav navbar-right' ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_id'=>'topmenu', 'container' => 'ul', 'menu_class' => 'nav navbar-nav navbar-right' ) ); ?>hello
 
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#home">Home</a></li>

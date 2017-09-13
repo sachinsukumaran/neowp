@@ -17,9 +17,12 @@ body { text-align: center; background-none:!important;}
 #wrapper { display: block;  width:100%; margin:0px auto; }
 #header { border: 2px #a2a2a2 solid; }
 #content { width: 75%; border: 2px #a2a2a2 solid; float: left; }
+#content_fw { width: 100%; border: 2px #a2a2a2 solid; float: left; }
 #sidebar { width: 23%; border: 2px #a2a2a2 solid; float: right; }
 #delimiter { clear: both; }
 #footer { border: 2px #a2a2a2 solid; }
 .title { font-size: 11pt; font-family: verdana; font-weight: bold; }
-#topmenu li.current-menu-item a { background-color:#B2C629; }
-#topmenu li.current_page_item  a { background-color:#B2C629 !important; }
+#topmenu li.current-menu-item a { color: #82ca9c;
+    background-color:transparent; }
+#topmenu li.current_page_item  a { color: #82ca9c;
+    background-color:transparent; }
